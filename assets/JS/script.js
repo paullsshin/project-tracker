@@ -1,4 +1,16 @@
-/*
+
+var projectFormEl = $("#project-form");
+var instructionsEl = $('<h2>'); 
+var addProject = $("button");
+
+var projectInfo = [
+    'Project Name',
+    'Project Type',
+    'Due Date',
+    'Hourly Rate',
+];
+
+/* Part 3
 1. Create a function that will accept the four input fields' data as arguments.
 
 2. Create a table row (`<tr>`) element and save it to a variable.
@@ -24,3 +36,4 @@ function myFunction () {
     y.appendChild(t);
     document.getElementById("myTr").appendChild(y);
 }
+
