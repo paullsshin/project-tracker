@@ -2,6 +2,7 @@
 var projectFormEl = $("#project-form");
 var instructionsEl = $('<h2>'); 
 var addProject = $("button");
+var clock = $("#timer");
 
 var projectInfo = [
     'Project Name',
@@ -9,6 +10,7 @@ var projectInfo = [
     'Due Date',
     'Hourly Rate',
 ];
+
 
 /* Part 3
 1. Create a function that will accept the four input fields' data as arguments.
