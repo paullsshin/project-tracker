@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 .container-fluid {
     background-color: purple;
     height: 400px;
+=======
+.container-fluid{
+    color: blueviolet;
+    height: 40px;
+>>>>>>> 1cdf11a07b96a71e6140f7199d0b1fa036d7be2b
 }

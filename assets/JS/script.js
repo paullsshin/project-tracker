@@ -39,3 +39,7 @@ function myFunction () {
     document.getElementById("myTr").appendChild(y);
 }
 
+window.setInterval(function () {
+    $('#clock').html(moment().format('ddd MM/DD/y H:mm:ss'))
+}, 1000);
+
